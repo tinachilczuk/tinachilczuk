@@ -14,6 +14,7 @@ body {
   margin:0;
   font-family: 'Blinker', sans-serif;
   color: #2B2B2B;
+  min-height:100vh;
 }
 a {
   color: #2B2B2B;
@@ -30,6 +31,10 @@ h2 {
   /* white-space: nowrap; */
   margin-bottom:0;
   margin-top:50px;
+}
+.wrapper {
+  height:100vh;
+  overflow:visible;
 }
 nav {
   width:100vw;
@@ -69,40 +74,54 @@ input {
 .home-flex {
   display:flex;
   position:relative;
+  height:100%
 }
 .home-flex div {
   flex:1;
 }
 .home-flex .left {
-  display:flex;
-  justify-content: space-around;
   padding-left:8%;
 }
-.home-flex .left .circle {
-  margin-top:89px;
-  margin-left:20px;
-  display:inline-block;
+
+.home-flex .abs-circle {
+  position:absolute;
+  left:31%;
+  top:5%;
+}
+.home-flex .abs-circle img {
+  width:600px;
 }
 .home-flex .right {
-  display:flex;
-  justify-content: space-between;
   padding-right:4%;
 }
-.home-flex .right .content {
+.home-flex .right.content {
   padding-top: 50px;
   text-align:right;
 }
-.home-flex .right .circle {
-  margin-top:40px;
+.home-flex .content {
+  height:100%;
 }
-.home-flex .right .content {
+.home-flex .right.content {
   display:flex;
   flex-direction:column;
   justify-content: space-between;
 }
-.home-flex .right .content div:last-child {
+.home-flex .right.content div:last-child {
   flex:1;
   display:flex;
   flex-direction:column;
   justify-content:end;
+}
+
+.gallery-page {
+  text-align:center;
+  width:70%;
+  margin:auto;
+}
+.gallery {
+  display:flex;
+  flex-wrap: wrap;
+}
+.gallery div {
+  flex:50%;
 }
