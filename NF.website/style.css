@@ -125,3 +125,14 @@ input {
 .gallery div {
   flex:50%;
 }
+
+
+
+  .what-flex { 
+    display:flex; width:100%; background-color: #2B2B2B;
+  }
+.what-flex .left{
+  flex: 60%;
+  color: white;
+  padding: 80px;
+}
