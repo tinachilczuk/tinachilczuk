@@ -39,6 +39,26 @@ h2 {
 nav {
   width:100vw;
   border-bottom:1px solid #2B2B2B;
+  background-color: white;
+  position:relative;
+}
+.next-prev {
+  width:80%;
+  margin:auto;
+  position:absolute;
+  bottom: -40px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.next-prev a {
+  color: white;
+  text-decoration: none;
+}
+.next-prev .right {
+  text-align: right;
 }
 nav ul {
   width:80%;
@@ -135,4 +155,34 @@ input {
   flex: 60%;
   color: white;
   padding: 80px;
+}
+.popular-page {
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+}
+.popular-page h1{
+  font-size: 60px;
+  line-height: 68px;
+  padding-top: 70px;
+}
+.popular-page {
+  background-image: url('images/popular-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.popular-flex {
+  display: flex;
+  width:85%;
+  margin: auto;
+
+}
+.popular-flex div {
+  flex:1;
+}
+
+.popular-flex .right{
+  margin-top: 400px;
+  margin-left: 80px;
 }
