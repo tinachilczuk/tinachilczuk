@@ -1,9 +1,11 @@
 /* For the first page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Russo+One&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -26,26 +28,29 @@ nav {
 
 main {
     background: url('images/background.png') left top/cover no-repeat;
-    height: calc(100vh - 70px); /* Adjust the height based on your header's height */
     display: flex;
+    height: 900px;
     align-items: flex-start;
     padding: 20px;
     color: white;
 }
 
 .text-container {
-    margin-left: auto;
+    margin-left: 60px;
+    padding-top: 110px;
 }
 
 h1 {
     margin: 0;
     font-size: 24px;
+    font-family: 'Russo One', sans-serif;
 }
 
 h2 {
     margin: 0;
     font-size: 36px;
     line-height: 1.2;
+    font-family: 'Russo One', sans-serif;
 }
 
 button {
@@ -71,12 +76,14 @@ main img {
 h3 {
     margin: 0;
     font-size: 24px;
+    font-family: 'Russo One', sans-serif;
 }
 
 h1 {
     margin: 10px 0;
     font-size: 36px;
     line-height: 1.2;
+    font-family: 'Russo One', sans-serif;
 }
 
 p {
