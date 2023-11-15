@@ -1,7 +1,9 @@
+/* For the first page */
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
 }
 
 header {
@@ -23,14 +25,16 @@ nav {
 }
 
 main {
-    background: url('images/background.png') center/cover no-repeat;
-    height: calc(100vh - 100px); /* Adjust the height based on your header's height */
+    background: url('images/background.png') left top/cover no-repeat;
+    height: calc(100vh - 70px); /* Adjust the height based on your header's height */
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: flex-start;
     padding: 20px;
     color: white;
+}
+
+.text-container {
+    margin-left: auto;
 }
 
 h1 {
@@ -50,5 +54,52 @@ button {
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 16px;
+}
+
+/* For the second page */
+
+main img {
+    width: 50%; /* Adjust the width of the image */
+}
+
+.content {
+    padding: 20px;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+.button {
+    width: 203px;
+    height: 61px;
+    background-color: #FF7018;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button p {
+    color: white;
+    margin: 0;
     font-size: 16px;
 }
