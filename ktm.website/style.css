@@ -1,0 +1,112 @@
+/* For the first page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Russo+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #FF7018;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+main {
+    background: url('images/background.png') left top/cover no-repeat;
+    display: flex;
+    height: 900px;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+}
+
+.text-container {
+    margin-left: 60px;
+    padding-top: 110px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+    margin: 0;
+    font-size: 36px;
+    line-height: 1.2;
+    font-family: 'Russo One', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #FF7018;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* For the second page */
+
+main img {
+    width: 50%; /* Adjust the width of the image */
+}
+
+.content {
+    padding: 20px;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    line-height: 1.2;
+    font-family: 'Russo One', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.cta {
+    margin-top: 20px;
+}
+
+.button {
+    width: 203px;
+    height: 61px;
+    background-color: #FF7018;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button p {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+}
