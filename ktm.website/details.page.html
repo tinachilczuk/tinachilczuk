@@ -3,31 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="style.css">
     <title>Second Page</title>
 </head>
 <body class="details-page">
     <header>
-        <img src="images/logo.png" alt="KTM Logo">
         <nav>
-            <span>Models</span>
-            <span>Racing</span>
-            <span>Service</span>
+            <a href="#"><img src="images/logo.png" alt="KTM Logo"></a>
+            <span><a href="details.page.html">Models</a></span>
+            <span><a href="#">Racing</a></span>
+            <span><a href="#">Service</a></span>
         </nav>
+        <div><a href="#"><img class="search-icon" src="images/search-icon.svg"></a></div>
+
     </header>
 
     <main>
-        <img src="images/background01.png" alt="Background Image 01">
+        <div>
+            <img src="images/background01.png" alt="Background Image 01">
+        </div>
         <div class="content">
-            <h3>The beast, evolved.</h3>
-            <h1>2023 KTM 1290 SUPER DUKE R EVO</h1>
+            <div><h3>The beast, evolved.</h3>
+            <h2 class="orange">2023 KTM 1290 SUPER DUKE R EVO</h2>
             <p>Evolution and adaption are critical when it comes to maintaining one's status as the top dog. The KTM 1290 SUPER DUKE R EVO is a BEAST - evolved. Boasting intuitive Semi-Active Suspension Technology (SAT), this BEAST not only adapts to the road surface but also to the rider's inputs - making it a cold, calculated hunter. A frightening prospect for any would-be challenger.</p>
-            <div class="cta">
-                <div class="button">
+                <a class="cta button">
                     <p>FIND A DEALER</p>
-                </div>
+                </a>
             </div>
         </div>
     </main>
+    <section>
+        <article class="moto-slide">
+            <div><img class="arrow" src="images/circle_left.png"></div>
+            <div><img src="images/moto-slide01.png" alt=""></div>
+            <div><img class="arrow" src="images/circle_right.png"></div>
+        </article>
+    </section>
+    <section class="hero">
+        <div class="text-container">
+            <h1>New beast has arrived:</h1>
+            <h2>2023 KTM 1290 SUPER DUKE</h2>
+            <a class="button" href="#">EXPLORE MORE</a>
+        </div>
+    </section>
 </body>
 </html>
