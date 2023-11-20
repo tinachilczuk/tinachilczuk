@@ -110,6 +110,20 @@ display:flex;
 .details-page main div {
     flex:1;
 }
+.graphics-page main div .content {
+    flex:35%;
+}
+
+.graphics-page main div .motorcycle {
+    flex:65%;
+}
+
+.graphics-page main div .motorcycle img {
+    width:140%;
+    margin-left:-30%;
+    padding-top: 80px;
+}
+
 .moto-slide {
     display:flex;
     width:80%;
@@ -120,12 +134,15 @@ display:flex;
     width:127px;
 }
 
+.details-page main {
+    background: linear-gradient(180deg, #000 28.9%, #888 169.24%);
+
+}
 .details-page .content {
     display:flex;
     align-items: center;
     padding: 0 102px;
     color: white;
-    background: linear-gradient(180deg, #000 28.9%, #888 169.24%);
 }
 
 .details-page .hero {
