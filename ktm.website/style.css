@@ -137,6 +137,7 @@ display:flex;
 .details-page main {
     background: linear-gradient(180deg, #000 28.9%, #888 169.24%);
 
+
 }
 .details-page .content {
     display:flex;
@@ -146,7 +147,7 @@ display:flex;
 }
 
 .details-page .hero {
-    background: url('images/background01.png') left top/cover no-repeat;
+    background: url('images/background02.png') left top/cover no-repeat;
     display: flex;
     height: 900px;
     align-items: flex-start;
