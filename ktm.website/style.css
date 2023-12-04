@@ -231,22 +231,38 @@ img {width:100%;}
     width: 500px;
     height: 50px;
     margin-top: 20px;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    border: 3px solid orange;
+}
+
+.box {
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    margin-top: 25px;
+    align-items: center;
     padding: 5px;
     background-color: white;
     border: 3px solid orange;
 }
 
 .checkboxes {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex; /* Updated display property */
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: flex-start;
     margin-top: 20px;
-  }
-  
-  .checkboxes label {
-    margin-bottom: 10px;
-  }
+}
+
+.checkboxes label {
+    margin-right: 50px;
+}
   
   .checkboxes input[type="checkbox"] {
     margin-right: 5px;
   }
+
+ 
+ 

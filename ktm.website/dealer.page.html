@@ -5,7 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Second Page</title>
+    <style>
+        .checkboxes {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center; /* Center the checkboxes */
+            margin-top: 10px;
+        }
+
+        .search-box {
+            display: flex;
+            justify-content: center; /* Center the search box */
+            margin-top: 10px;
+        }
+
+        .checkboxes label {
+            margin-right: 10px;
+        }
+    </style>
 </head>
+
 <body class="details-page">
     <header>
         <nav>
@@ -15,7 +35,6 @@
             <span><a href="#">Service</a></span>
         </nav>
         <div><a href="#"><img class="search-icon" src="images/search-icon.svg"></a></div>
-
     </header>
 
     <main>
@@ -24,27 +43,29 @@
         </div>
         <div class="content">
             <div class="column">
-            <h2 class="orange">FIND A DEALER</h2>
-            <div>
-                <h3>Enter a location</h3>     
-            </div>
-            <div class="search-box">
-            <div class="checkboxes">
-                <label for="all-checkbox">
-                    <input type="checkbox" id="all-checkbox">
-                </label>
-                <label for="motorcycles-checkbox">
-                  <input type="checkbox" id="motorcycles-checkbox">
-                </label>
-                <label for="x-bow-checkbox">
-                  <input type="checkbox" id="x-bow-checkbox">
-                  </label>
-                  </div>
-                  </div>
-            </div>
+                <h2 class="orange">FIND A DEALER</h2>
+                <div>
+                    <h3>Enter a location</h3>
+                </div>
+                <div class="search-box">
+                    <!-- Search box content here -->
+                </div>
+                <div class="checkboxes">
+                    <label for="all-checkbox">
+                        <input type="checkbox" id="all-checkbox">
+                        All
+                    </label>
+                    <label for="motorcycles-checkbox">
+                        <input type="checkbox" id="motorcycles-checkbox">
+                        Motorcycles
+                    </label>
+                    <label for="x-bow-checkbox">
+                        <input type="checkbox" id="x-bow-checkbox">
+                        X-Bow
+                    </label>
+                </div>
             </div>
         </div>
     </main>
-    </body>
-    </html>
-    
+</body>
+</html>
