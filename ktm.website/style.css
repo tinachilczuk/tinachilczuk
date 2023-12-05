@@ -123,8 +123,18 @@ display:flex;
     margin-left:-30%;
     padding-top: 80px;
 }
-
+.slide h3 {
+    color: white;
+    margin-left:45%;
+}
+.slide h2 {
+    color: #FF7018;
+    margin-left:45%;
+    /* margin-bottom:-100px; */
+    margin-bottom: 20px;
+}
 .moto-slide {
+    padding-top:90px;
     display:flex;
     width:80%;
     margin:auto;
