@@ -275,4 +275,35 @@ img {width:100%;}
   }
 
  
- 
+ @media screen and (max-width: 768px) {
+  .home-page main {
+        background: url(images/background.png) center center/cover no-repeat;
+        height: 246px;
+    }
+    .text-container {
+        margin-left:20px;
+        padding-top:0;
+    }
+    .button {
+        width: 163px;
+        height: 40px;
+    }
+    h1 {
+        font-size:24px;
+    }
+    h2 {
+        font-size:32px;
+    }
+    h2.orange {
+        font-size:24px;
+    }
+    .gallery {
+        flex-direction:column;
+    }
+    .gallery div {
+        margin-bottom:40px;
+    }
+    .details-page main {
+        flex-direction:column;
+    }
+}
