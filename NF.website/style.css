@@ -175,6 +175,7 @@ input {
 }
 .article-page03 {
   background-image: url('images/article03.png');
+  background-size: 100% auto;
 }
 .article03-flex {
   display:flex;
