@@ -1,3 +1,20 @@
+body {
+    background-color: #f7f7f7;
+    background-image: url(bproject.image.png);
+
+}
+
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+    font-family: 'Rubik Bubbles', Arial, sans-serif;
+}
+
+p {
+    color: #333333;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
